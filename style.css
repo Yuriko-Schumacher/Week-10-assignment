@@ -1,17 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+html,
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+* {
+	font-family: "Open Sans", sans-serif;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
 .container {
-    width: 1000px;
-    margin: auto;
+	width: 1000px;
+	margin: auto;
 }
 
 text {
-    font-family: sans-serif;
-    font-size: 10px;
+	font-family: sans-serif;
+	font-size: 10px;
 }
 
 text.title {
-    font-size: 14px;
-    text-anchor: middle;
-    font-weight: bold;
-    transform: translate(0, 7px);
-    opacity: 0.8;
+	font-size: 14px;
+	text-anchor: middle;
+	font-weight: bold;
+	transform: translate(0, 7px);
+	opacity: 0.8;
+}
+
+.axis-x-text {
+	font-size: 9px;
+	fill: #464646;
 }
